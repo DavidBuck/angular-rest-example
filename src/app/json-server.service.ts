@@ -22,12 +22,12 @@ export class JsonServerService {
     return this.http.get<Post[]>(this.apiUrl);
   }
 
-  addPost(post: Post): Observable<any> {
-    return this.http.post(this.apiUrl, post, httpOptions);
+  addPost(post: Post): Observable<Post> {
+    return this.http.post<Post>(this.apiUrl, post, httpOptions);
   }
 
-  updatePost(id: number, post: Post): Observable<any> {
-    return this.http.put(this.apiUrl + '/' + id, post, httpOptions);
+  updatePost(id: number, post: Post): Observable<Post> {
+    return this.http.put<Post>(this.apiUrl + '/' + id, post, httpOptions);
   }
 
   deletePost(id: number): Observable<{}> {
