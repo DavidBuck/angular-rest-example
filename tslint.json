@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "tslint:recommended",
-    "tslint-plugin-prettier",
-    "tslint-config-prettier"
-  ],
+  "extends": "tslint:recommended",
   "rules": {
     "prettier": true,
     "array-type": false,
@@ -58,5 +54,9 @@
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true
   },
-  "rulesDirectory": ["codelyzer"]
+  "rulesDirectory": [
+    "codelyzer",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ]
 }
