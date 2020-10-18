@@ -12,6 +12,6 @@ Run `npm run start` to start the JSON server and the Angular client.
 
 ## Versions
 
-- [Version 1.1](https://github.com/DavidBuck/angular-rest-example/releases/tag/v1.1) - Angular version 10.1.5.
+- [Version 1.1](https://github.com/DavidBuck/angular-rest-example/tree/v1.1) - Angular version 10.1.5.
 
-- [Version 1.0](https://github.com/DavidBuck/angular-rest-example/releases/tag/v1.0) - Angular version 9.1.1.
+- [Version 1.0](https://github.com/DavidBuck/angular-rest-example/tree/v1.0) - Angular version 9.1.1.
